@@ -7,7 +7,7 @@ import '../css/EditForm.css'
 class EditForm extends Component {
 
     constructor(props) {
-        super(props)
+        super()
 
         //to hold data from form input
         this.state = {

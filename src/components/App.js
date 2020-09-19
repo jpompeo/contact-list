@@ -12,6 +12,7 @@ import CarlImage from '../images/carl.jpg';
 import VernonImage from '../images/vernon.jpg';
 import AndrewImage from '../images/andrew.jpg';
 import BrianImage from '../images/brian.jpg';
+import '../css/App.css';
 
 
 class App extends Component {
@@ -133,7 +134,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id="app">
         {/* to direct which component to display based on url path */}
         <Switch>
 
